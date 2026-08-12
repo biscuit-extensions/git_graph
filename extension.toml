@@ -1,0 +1,7 @@
+[extension]
+id = "git_graph"
+name = "Git Graph"
+version = "0.1.0"
+description = "Visual commit history graph and interactive branch DAG tree viewer"
+author = "biscuit-extensions"
+icon = "icon.png"
