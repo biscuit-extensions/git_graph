@@ -1,7 +1,18 @@
 [extension]
 id = "git_graph"
 name = "Git Graph"
-version = "0.1.0"
+version = "0.2.0"
 description = "Visual commit history graph and interactive branch DAG tree viewer"
-author = "biscuit-extensions"
+author = "tomlin7"
 icon = "icon.png"
+
+[dependencies]
+python = []
+tools = ["git"]
+
+[contributes]
+commands = [
+    { id = "git_graph.view", title = "Git Graph: View Commit Graph" },
+    { id = "git_graph.refresh", title = "Git Graph: Refresh Commit Graph" },
+    { id = "git_graph.checkout_branch", title = "Git Graph: Checkout Branch or Commit" }
+]
